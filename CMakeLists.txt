@@ -11,6 +11,6 @@ set(CMAKE_PREFIX_PATH "/Users/jan/Qt/6.4.3/macos/lib/cmake")
 find_package(Qt6 REQUIRED COMPONENTS Core)
 qt_standard_project_setup()
 add_executable(myProgram
-    main.cpp
+    myprogram.cpp
 )
 target_link_libraries(myProgram PRIVATE Qt6::Core)
