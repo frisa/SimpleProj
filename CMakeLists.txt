@@ -7,9 +7,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # configure the Qt dependencies
-set(CMAKE_PREFIX_PATH "/Users/jan/Qt/6.4.3/macos/lib/cmake")
+set(CMAKE_PREFIX_PATH "/Users/jan/Qt/6.5.0/macos/lib/cmake/Qt6")
 find_package(Qt6 REQUIRED COMPONENTS Core)
 qt_standard_project_setup()
+
 add_executable(myProgram
     myprogram.cpp
 )

@@ -1,4 +1,10 @@
 {
     "cmake.configureOnOpen": true,
-    "cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake"
+    "cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",
+    "files.associations": {
+        "qcoreapplication": "cpp",
+        "qtcore": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
 }
